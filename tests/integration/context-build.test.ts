@@ -3,6 +3,7 @@ import { stripHtmlComments, isMemoryFilePath, getLargeMemoryFiles } from "../../
 import { buildEffectiveSystemPrompt } from "../../src/utils/systemPrompt";
 import { createTempDir, cleanupTempDir, writeTempFile } from "../mocks/file-system";
 
+
 // ─── CLAUDE.md Integration with System Prompt ─────────────────────────
 
 describe("Context build: CLAUDE.md + system prompt integration", () => {
